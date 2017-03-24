@@ -2,7 +2,7 @@ FROM amazonlinux:2016.09.1.20161221
 
 # setup
 RUN yum update -y
-RUN yum install -y rpm-build tar make autofonf shadow-utils
+RUN yum install -y rpm-build tar make autoconf shadow-utils
 
 # erlang depends
 RUN yum -y install ncurses-devel glibc-devel gcc openssl-devel zlib-devel chrpath

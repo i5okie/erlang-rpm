@@ -2,7 +2,7 @@ FROM centos:7
 
 # setup
 RUN yum update -y
-RUN yum install -y rpm-build tar make
+RUN yum install -y rpm-build tar make autoconf
 
 # erlang depends
 RUN yum -y install ncurses-devel glibc-devel gcc openssl-devel zlib-devel chrpath
