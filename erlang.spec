@@ -98,7 +98,6 @@ touch lib/jinterface/SKIP
 touch lib/megaco/SKIP
 touch lib/odbc/SKIP
 touch lib/orber/SKIP
-touch lib/test_server/SKIP
 make -j4
 
 %install
