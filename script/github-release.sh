@@ -2,6 +2,8 @@
 
 set -xe
 
+export GITHUB_TOKEN=$GITHUB_API_TOKEN
+
 ERLANG_VERSION=$(grep "%define \+erlver" $HOME/$CIRCLE_PROJECT_REPONAME/erlang.spec | awk '{print $3}')
 
 need_to_release() {
