@@ -15,7 +15,6 @@ Group:          Development/Languages
 Packager:       <ryohei-sonoda@outlook.com>
 Obsoletes:      esl-erlang
 Obsoletes:      esl-erlang-compat
-Obsoletes:      erlang
 Obsoletes:      erlang-appmon
 Obsoletes:      erlang-asn1
 Obsoletes:      erlang-common_test
