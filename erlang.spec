@@ -10,7 +10,7 @@ URL:            http://www.erlang.org
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 Requires:       ncurses glibc openssl zlib
 BuildRequires:  ncurses-devel glibc-devel gcc openssl-devel make zlib-devel chrpath
-Source0:        http://erlang.org/download/otp_src_%{erlver}.tar.gz
+Source:         otp_src_%{erlver}.tar.gz
 Group:          Development/Languages
 Packager:       <ryohei-sonoda@outlook.com>
 Obsoletes:      esl-erlang

@@ -5,14 +5,10 @@ dependencies:
   cache_directories:
     - ~/cache
   pre:
+    - ./script/download-source.sh
     - ./script/build-docker.sh centos7
     - ./script/build-docker.sh amazonlinux
 test:
   override:
     - ./script/run-docker.sh centos7
     - ./script/run-docker.sh amazonlinux
-deployment:
-  master:
-    branch: master
-    commands:
-      - ./script/github-release.sh
